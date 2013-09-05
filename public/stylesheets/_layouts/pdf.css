@@ -1,0 +1,61 @@
+#pdf-header{
+    width:800px;
+    padding-top: 30px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo{
+    height: 120px;
+    width:120px;
+    float: left;
+}
+
+.header-content{
+    color: black;
+    font-weight: normal;
+    font-size: 21px;
+    float: left;
+    width: 600px;
+    height: 110px;
+    text-align: center;
+}
+
+.header-content p{
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+
+#pdf-footer{
+    width: 700px;
+    padding-right: 100px;
+    margin: 0 auto;
+    padding: 50px;
+    color: #999999;
+    font-size: 18px;
+
+}
+
+#page-yield {
+    margin-top: 30px !important;
+}
+
+.page {
+      page-break-after: always;
+      page-break-inside: avoid;
+      overflow: hidden;
+      
+      }
+      .section{
+      margin-top:20px;
+      }
+      .row-break{
+/*       display: table-row; */
+/*       clear:both; */
+/*       page-break-before:always; */
+       page-break-after:always;
+      }
+      .top-padding-20{
+      padding-top:20px;
+      background-color:#ccf;
+      }
